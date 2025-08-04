@@ -1,0 +1,410 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Skills",
+                "title_short_nav": "Skills",
+                "title_long_prefix": "Explore",
+                "title_long": "My {{Skill Set}}"
+            },
+            "es": {
+                "title_short": "Habilidades",
+                "title_short_nav": "Habilidades",
+                "title_long_prefix": "Explora",
+                "title_long": "Mis {{Habilidades}}"
+            }
+        }
+    },
+
+    "articles": [
+       
+
+        {
+            "id": 2,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Stack"},
+                "es": {"title": "Stack"}
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-node-js",
+                    "faIconColors": {"bg": "", "fill": "#339933"},
+                    "percentage": 25,
+                    "locales": {
+                        "en": {
+                            "title": "Node.js",
+                            "text": "",
+                            "level": "Basic"
+                        },
+                        "es": {
+                            "text": "",
+                            "level": "Básico"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-java",
+                    "faIconColors": {"bg": "", "fill": "#0295c2", "fillLight": "#007396"},
+                    "percentage": 25,
+                    "locales": {
+                        "en": {
+                            "title": "Java",
+                            "text": "",
+                            "level": "Basic"
+                        },
+                        "es": {
+                            "level": "Básico"
+                        }
+                    }
+                },
+               
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {"bg": "", "fill": "#4479A1"},
+                    "percentage": 50,
+                    "locales": {
+                        "en": {
+                            "title": "SQL",
+                            "text": "",
+                            "level": "Intermediate"
+                        },
+                        "es": {
+                            "level": "Intermedio"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-brands fa-docker",
+                    "faIconColors": {"bg": "", "fill": "#2496ED"},
+                    "percentage": 20,
+                    "locales": {
+                        "en": {
+                            "title": "Docker",
+                            "text": "",
+                            "level": "Basic"
+                        },
+                        "es": {
+                            "level": "Básico"
+                        }
+                    }
+                },
+               
+                {
+                    "id": 7,
+                    "img": "",
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": {"bg": "", "fill": "#306998"},
+                    "percentage": 50,
+                    "locales": {
+                        "en": {
+                            "title": "Python",
+                            "text": "",
+                            "level": "Intermediate"
+                        },
+                        "es": {
+                            "level": "Intermedio"
+                        }
+                    }
+                },
+               
+              
+                {
+                    "id": 10,
+                    "img": "",
+                    "faIcon": "fa-brands fa-git",
+                    "faIconColors": {"bg": "", "fill": "#F05032"},
+                    "percentage": 45,
+                    "locales": {
+                        "en": {
+                            "title": "Git",
+                            "text": "",
+                            "level": "Intermediate"
+                        },
+                        "es": {
+                            "level": "Intermedio"
+                        }
+                    },
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-html5",
+                    "faIconColors": {"bg": "", "fill": "#E34F26"},
+                    "percentage": 70,
+                    "locales": {
+                        "en": {
+                            "title": "HTML 5",
+                            "text": "",
+                            "level": "Intermediate"
+                        },
+                        "es": {
+                            "level": "Intermedio"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-css3-alt",
+                    "faIconColors": {"bg": "", "fill": "#1572B6"},
+                    "percentage": 65,
+                    "locales": {
+                        "en": {
+                            "title": "CSS 3",
+                            "text": "",
+                            "level": "Intermediate"
+                        },
+                        "es": {
+                            "level": "Intermedio"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-js",
+                    "faIconColors": {"bg": "", "fill": "#F7DF1E", "fillLight": "#a69617"},
+                    "percentage": 50,
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript ES6+",
+                            "text": "",
+                            "level": "Intermediate"
+                        },
+                        "es": {
+                            "level": "Intermedio"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {"bg": "", "fill": "#61DAFB", "fillLight": "#317385"},
+                    "percentage": 15,
+                    "locales": {
+                        "en": {
+                            "title": "React",
+                            "text": "",
+                            "level": "Basic"
+                        },
+                        "es": {
+                            "level": "Básico"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-brands fa-linux",
+                      "faIcon": "fa-brands fa-linux",
+  "faIconColors": {
+    "bg": "",      
+    "fill": "#000000",    
+    "fillLight": "" 
+  },
+                    "percentage": 45,
+                    "locales": {
+                        "en": {
+                            "title": "Linux",
+                            "text": "",
+                            "level": "Intermediate"
+                        },
+                        "es": {
+                            "level": "Intermedio"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Tools"},
+                "es": {"title": "Herramientas"}
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/excel.png",
+                    "percentage": 60,
+                    "locales": {
+                        "en": {
+                            "title": "Excel",
+                            "text": "",
+                            "level": "Intermediate"
+                        },
+                        "es": {
+                            "level": "Intermedio"
+                        }
+                    }
+                }
+
+                ,
+                {
+                    "id": 2,
+                    "img": "images/pictures/figma.png",
+                    "percentage": 60,
+                    "locales": {
+                        "en": {
+                            "title": "Figma",
+                            "text": "",
+                            "level": "Intermediate"
+                        },
+                        "es": {
+                            "level": "Intermedio"
+                        }
+                    }
+                }
+
+                ,
+                {
+                    "id": 3,
+                    "img": "images/pictures/visual.png",
+                    "percentage": 70,
+                    "locales": {
+                        "en": {
+                            "title": "Visual Studio Code",
+                            "text": "",
+                            "level": "Intermediate"
+                        },
+                        "es": {
+                            "level": "Intermedio"
+                        }
+                    }
+                }
+
+                ,
+                {
+                    "id": 4,
+                    "img": "images/pictures/power.png",
+                    "percentage": 50,
+                    "locales": {
+                        "en": {
+                            "title": "Power BI",
+                            "text": "",
+                            "level": "Intermediate"
+                        },
+                        "es": {
+                            "level": "Intermedio"
+                        }
+                    }
+                }
+                ,
+                {
+                    "id": 5,
+                    "img": "images/pictures/jira.png",
+                    "percentage": 70,
+                    "locales": {
+                        "en": {
+                            "title": "Jira",
+                            "text": "",
+                            "level": "Intermediate"
+                        },
+                        "es": {
+                            "level": "Intermedio"
+                        }
+                    }
+                }
+                
+                ,
+                {
+                    "id": 6,
+                    "img": "images/pictures/pho.png",
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "Adobe Photoshop",
+                            "text": "",
+                            "level": "Advanced"
+                        },
+                        "es": {
+                            "level": "Avanzado"
+                        }
+                    }
+                }       
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Languages"},
+                "es": {"title": "Idiomas"}
+            },
+            "settings": {
+                "max_items_per_row": 1,
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "round_icons": true
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/flags/es-mx.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Spanish",
+                            "text": "Native speaker with excellent communication and writing skills.",
+                            "level": "Native"
+                        },
+                        "es": {
+                            "title": "Español",
+                            "text": "Hablante nativo con excelentes habilidades de comunicación y escritura.",
+                            "level": "Nativo"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/flags/en-us.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "text": "Basic understanding and ability to communicate with common vocabulary.",
+                            "level": "Intermediate B1"
+                        },
+                        "es": {
+                            "title": "Inglés",
+                            "text": "Capacidad para entender y comunicarse con un vocabulario básico.",
+                            "level": "Intermedio B1"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

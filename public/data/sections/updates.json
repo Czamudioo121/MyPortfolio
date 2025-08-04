@@ -1,0 +1,168 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Life recently",
+        "title_short_nav": "Updates",
+        "title_long_prefix": "Take a look at my",
+        "title_long": "Recent {{Updates}}"
+      },
+      "es": {
+        "title_short": "Vida Reciente",
+        "title_short_nav": "Actualizaciones",
+        "title_long_prefix": "Consulta mis",
+        "title_long": "Actualizaciones {{Recientes}}"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleFacts",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+       
+        {
+          "id": 5,
+          "img": null,
+          "faIcon": "fa-solid fa-coffee",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "20,000",
+              "text": "Coffees consumed"
+            },
+            "es": {
+              "text": "Cafés Consumidos"
+            }
+          }
+        },
+        {
+          "id": 6,
+          "img": null,
+          "faIcon": "fa-solid fa-laptop-code",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "1,000,000+",
+              "text": "Lines of code"
+            },
+            "es": {
+              "text": "Líneas de código"
+            }
+          }
+        },
+        {
+          "id": 7,
+          "img": null,
+          "faIcon": "fa-solid fa-heart",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "title": "Infinite",
+              "text": "Passion for learning"
+            },
+            "es": {
+              "title": "Infinita",
+              "text": "Pasión por Aprender"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "component": "ArticleThread",
+      "locales": {
+        "en": { "title": "Quick {{Facts}}" },
+        "es": { "title": "Feed de {{Noticias}}" }
+      },
+      "settings": {
+        "max_rows_collapse_threshold": 3,
+        "order_items_by": "dateStart",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 2,
+          "date": { "year": 2025, "month": 1 },
+          "preview": {
+            "links": [
+              {
+                "href": "https://www.youtube.com/@cesarosvaldozamudioonofre3327",
+                "tooltipString": "open_website",
+                "faIcon": "fa-solid fa-eye"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": "https://www.youtube.com/watch?v=gzAkdh2ymuM"
+          },
+          "locales": {
+            "en": {
+              "title": "Started my own {{Youtube Channel!}}",
+              "province": "CDMX",
+              "country": "Mexico",
+              "institution": "",
+              "text": "I’m thrilled to announce the launch of my own YouTube channel! Join me on this exciting journey as I share my passion for technology, coding, and all things digital. From tutorials and tips to project showcases, I can’t wait to connect with you all through this platform. Don’t forget to subscribe and hit the notification bell to stay updated on my latest videos. Let’s embark on this adventure together!"
+            },
+            "es": {
+              "title": "¡Comencé mi propio {{Canal de YouTube!}}",
+              "province": "CDMX",
+              "country": "México.",
+              "institution": "",
+              "text": "Estoy emocionado de anunciar el lanzamiento de mi propio canal de YouTube. Únete a mí en este emocionante viaje mientras comparto mi pasión por la tecnología, la programación y todo lo digital. Desde tutoriales y consejos hasta presentaciones de proyectos, no puedo esperar para conectar con todos ustedes a través de esta plataforma. No olvides suscribirte y activar la campana de notificaciones para estar al tanto de mis últimos videos. Embarquémonos juntos en esta aventura."
+            }
+          }
+        },
+        {
+          "id": 5,
+          "date": { "year": 2025, "month": 7 },
+          "preview": {
+            "links": [
+              {
+                "href": "https://github.com/Czamudioo121/MiPortfolio",
+                "tooltipString": "see_on_github",
+                "faIcon": "fa-brands fa-github"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Launched my {{personal website!}}",
+              "province": "CDMX",
+              "country": "Mexico",
+              "institution": "",
+              "text": "I’m excited to announce the launch of my personal website. This platform is a space where I can share my projects, blog posts, and insights into the world of technology and development. It’s been a labor of love, and I can’t wait for you all to explore it. Here are some highlights of what you can find on the site:",
+              "list": [
+                "Portfolio showcasing my projects and contributions",
+                "Contact form for inquiries and collaborations",
+                "Links to my social media profiles and GitHub"
+              ]
+            },
+            "es": {
+              "title": "¡Lanzamiento de mi {{sitio web personal!}}",
+              "province": "CDXM",
+              "country": "México.",
+              "institution": "",
+              "text": "Estoy emocionado de anunciar el lanzamiento de mi sitio web personal. Esta plataforma es un espacio donde puedo compartir mis proyectos, habilidades y reflexiones sobre el mundo de la tecnología y el desarrollo. Ha sido el resultado de mucha dedicación, y estoy entusiasmado de que puedan explorarlo. Aquí algunos aspectos destacados de lo que pueden encontrar en el sitio:",
+              "list": [
+                "Portafolio que muestra mis proyectos y contribuciones",
+                "Sección de habilidades técnicas y herramientas que domino",
+                "Resumen de mi experiencia académica y proyectos relevantes",
+                "Enlaces a mis perfiles en redes sociales y GitHub"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

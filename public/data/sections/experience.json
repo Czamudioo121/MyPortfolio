@@ -1,0 +1,113 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Experience",
+        "title_short_nav": "Experience",
+        "title_long_prefix": "Summary of my",
+        "title_long": "{{Work}} Experience"
+      },
+      "es": {
+        "title_short": "Experiencia",
+        "title_short_nav": "Experiencia",
+        "title_long_prefix": "Resumen de mi",
+        "title_long": "Experiencia {{Laboral}}"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleTimeline",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "dateStart"
+      },
+      "items": [
+        {
+          "id": 2,
+          "img": "images/pictures/sis.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "dateStart": { "year": 2019, "month": 8 },
+          "dateEnd": { "year": 2020, "month": 4 },
+          "locales": {
+            "en": {
+              "title": "Network and Telecommunications Technician",
+              "province": "CDMX",
+              "country": "Mexico",
+              "institution": "Sistema del Transporte Colectivo",
+              "text": "Provided specialized support in connectivity systems, ensuring continuous operation of network and communication services in critical environments. <br> [[Key achievements:]]<br>",
+              "list": [
+                "Implemented connectivity solutions that improved operational efficiency.",
+                "Assisted in installation and configuration of over 5 switches and routers.",
+                "Responded to and logged more than 40 incidents in the internal database.",
+                "Assisted in installation and configuration of networks supporting over 40 users.",
+                "Performed preventive maintenance that increased system reliability."
+              ],
+                            "tags": ["Excel", "CMD / PowerShell", "Structured Cabling (UTP)", "Video Surveillance Systems (CCTV)"]
+
+            },
+            "es": {
+              "title": "Técnico en {{redes}} y {{telecomunicaciones}}",
+              "province": "CDMX",
+              "country": "México",
+              "institution": "Sistema del Transporte Colectivo",
+              "text": "Presté soporte especializado en sistemas de conectividad, asegurando el funcionamiento continuo de la red y servicios de comunicación en entornos críticos. <br> [[Logros destacados:]]<br>",
+              "list": [
+                "Implementé soluciones de conectividad que mejoraron la eficiencia operativa.",
+                "Colaboré en la instalación y configuración de más de 5 switches y routers.",
+                "Respondí y registré más de 40 incidencias en la base de datos interna.",
+                "Colaboré en la instalación y configuración de redes que soportan más de 40 usuarios.",
+                "Desarrollé mantenimiento preventivo que aumento la fiabilidad de los sistemas."
+              ],
+            "tags": ["Excel", "CMD / PowerShell", "Cableado estructurado (UTP)", "Sistemas de videovigilancia (CCTV)"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "img": "images/pictures/dems.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "dateStart": { "year": 2024, "month": 8 },
+          "dateEnd": { "year": 2025, "month": 5 },
+          "locales": {
+            "en": {
+              "title": "Systems and Database Analyst",
+              "province": "CDMX",
+              "country": "Mexico",
+              "institution": "DEMS IPN",
+              "text": "Managed systems, developed databases, and provided support in an organizational environment. <br> [[Key achievements:]]<br>",
+              "list": [
+                "Developed and managed databases that optimized educational management.",
+                "Created over 10 manuals and guides that facilitated platform usage.",
+                "Resolved over 30 technical incidents, ensuring continuous support.",
+                "Increased operational availability of over 60 devices by 30%.",
+                "Designed functional web interfaces that improved information access."
+              ],
+              "tags": ["JavaScript", ".NET", "HTML", "CSS", "Microsoft SQL Server"]
+            },
+            "es": {
+              "title": "{{Analista}} de sistemas y BD",
+              "province": "CDMX",
+              "country": "México",
+              "institution": "DEMS IPN",
+              "text": "Gestioné sistemas, desarrollé bases de datos y brindé soporte en un entorno organizacional. <br> [[Logros destacados:]]<br>",
+              "list": [
+                "Desarrollé y administré bases de datos que optimizaron la gestión educativa.",
+                "Creé más de 10 manuales y guías que facilitaron el uso de las plataformas.",
+                "Resolví más de 30 incidencias técnicas, garantizando soporte continuo.",
+                "Incrementé la disponibilidad operativa de más de 60 equipos en un 30%.",
+                "Diseñé interfaces web funcionales que facilitaron el acceso a información."
+              ],
+              "tags": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

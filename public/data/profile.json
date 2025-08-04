@@ -1,0 +1,39 @@
+{
+    "name": "Cesar Zamudio",
+
+    "profilePictureUrl": "images/pictures/IMG_20241126_210935.jpg",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Cesar Zamudio",
+            "localized_name_stylized": " [[Cesar {{Zamudio}}]]",
+            "status_message_available_for_freelance": "Available for to work!",
+            "roles": [
+                "Computer Systems Engineer",
+                "Data Analyst",
+                "Frontend Developer",
+                "IT Support",
+                "UI/UX Designer",
+                "Project Manager",
+                "Network Specialist"
+            ]
+        },
+        "es": {
+            "status_message_available_for_freelance": "¡Disponible para trabajar!",
+            "roles": [
+                "Ingeniero en sistemas",
+                "Analista de datos",
+                "Desarrollador Frontend",
+                "Soporte de TI",
+                "Diseñador UI/IX",
+                "Gestor de proyectos",
+                "Especialista de redes"
+       
+            ]
+        }
+    }
+}

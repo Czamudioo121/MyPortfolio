@@ -1,0 +1,75 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Contact",
+        "title_short_nav": "Contact",
+        "title_long_prefix": "Don't hesitate to",
+        "title_long": "{{Contact}} Me"
+      },
+      "es": {
+        "title_short": "Contacto",
+        "title_short_nav": "Contacto",
+        "title_long_prefix": "No dudes en",
+        "title_long": "Contáctame"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": 2,
+      "component": "ArticleInfoList",
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      
+      "items": [
+        {
+          "id": 1,
+          "faIcon": "fa-solid fa-phone",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": "+1 (52) 55 3193 0892",
+          "link": { "href": "55 3193 0892", "tooltipString": "call_me" },
+          "locales": {
+            "en": { "title": "Phone" },
+            "es": { "title": "Teléfono" }
+          }
+        },
+        {
+          "id": 2,
+          "faIcon": "fa-solid fa-envelope",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": "czamudio9543@gmail.com",
+          "link": { "href": "czamudio9543@gmail.com", "tooltipString": "email_me" },
+          "locales": {
+            "en": { "title": "E-mail" },
+            "es": { "title": "Correo electrónico" }
+          }
+        },
+        {
+          "id": 3,
+          "faIcon": "fa-brands fa-linkedin",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": "@cesazamudio",
+          "link": { "href": "https://www.linkedin.com/in/cesar-osvaldo-zamudio-onofre-8608a8197/", "tooltipString": "open_website" },
+          "locales": {
+            "en": { "title": "LinkedIn" },
+            "es": { "title": "LinkedIn" }
+          }
+        },
+        {
+          "id": 4,
+          "faIcon": "fa-brands fa-whatsapp",
+          "faIconColors": { "bg": "", "fill": "" },
+          "label": "Cesar Zamudio",
+          "link": { "href": "https://wa.me/525531930892?text=Hola%2C%20soy%20Zamudio.%20Gracias%20por%20escribirme%20por%20WhatsApp.%20Por%20favor%20ind%C3%ADcame%20el%20motivo%20de%20tu%20mensaje%20y%20con%20gusto%20te%20responder%C3%A9.", "tooltipString": "open_website" },
+          "locales": {
+            "en": { "title": "Whatsapp" },
+            "es": { "title": "Whatsapp" }
+          }
+        }
+      ]
+    }
+  ]
+}
