@@ -1,0 +1,153 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Portfolio",
+        "title_short_nav": "Portfolio",
+        "title_long_prefix": "Take a look at",
+        "title_long": "My {{Portfolio}}"
+      },
+      "es": {
+        "title_short": "Portafolio",
+        "title_short_nav": "Portafolio",
+        "title_long_prefix": "Explora",
+        "title_long": "Mi {{Portafolio}}"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticlePortfolio",
+      "locales": {
+        "en": {
+          "category_all": "All",
+          "category_web": "Web",
+          "category_apps": "Apps"
+        },
+        "es": {
+          "category_all": "Todo",
+          "category_web": "Web",
+          "category_apps": "Apps"
+        }
+      },
+      "settings": {
+        "categorize_by": ["category_web", "category_apps"],
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "categoryId": "category_web",
+          "img": "images/pictures/hab.jpg",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://github.com/Czamudioo121/EduVoz",
+                "tooltipString": "see_on_github",
+                "faIcon": "fa-brands fa-github"
+              },
+              {
+                "href": "https://www.figma.com/design/MnnatqBtDlzZr1H6lDgsFS/TT?node-id=0-1&t=OjAQ2NI2U87UfxSc-1",
+                "tooltipString": "see_on_npm",
+                "faIcon": "fa-solid fa-pencil-ruler"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/1p.jpg",
+              "images/pictures/chi.png",
+              "images/pictures/1p22.png",
+              "images/pictures/1p3.png",
+              "images/pictures/1p4.png",
+              "images/pictures/1p5.png",
+              "images/pictures/1p6.png"
+            ],
+            "screenshotsAspectRatio": "16:9",
+            "youtubeVideo": "https://www.youtube.com/watch?v=9SSgh_dx_oE"
+          },
+          "locales": {
+            "en": {
+              "title": "EduVoz",
+            "text": "Interactive web application prototype that uses <b>voice recognition</b> to help second-grade preschool children <b>practice</b> the pronunciation of letters and numbers.",
+              "tags": ["HTML", "Python", "CSS", "JavaScript"]
+            },
+            "es": {
+              "text": "Prototipo de aplicación web interactiva que utiliza <b>reconocimiento de voz</b> para apoyar a niños de segundo grado de preescolar a <b>practicar</b> la pronunciación de letras y números.",
+              "tags": ["HTML", "Python", "CSS", "JavaScript"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "categoryId": "category_apps",
+          "img": "images/pictures/trak.png",
+          "preview": {
+            "links": [
+              {
+                "href": "https://github.com/Czamudioo121/TrakNav",
+                "tooltipString": "see_on_github",
+                "faIcon": "fa-brands fa-github"
+              },
+              {
+                "href": "https://www.figma.com/design/z8r3vvd05M9m5zRuxYFD9w/TRAKNAV?node-id=0-1&t=1lTvLQw2TiwVxJea-1",
+                "tooltipString": "see_on_npm",
+                "faIcon": "fa-solid fa-pencil-ruler"
+              }
+            ],
+            "screenshots": [
+              "images/pictures/1.png",
+              "images/pictures/2.png",
+              "images/pictures/3.png",
+              "images/pictures/4.png",
+              "images/pictures/5.png"
+            ],
+            "screenshotsAspectRatio": "9:16"
+          },
+          "locales": {
+            "en": {
+              "title": "TrakNav",
+              "text": "A <b>Flutter</b> built app that guides tourists, aiming to help them plan, explore, and optimize their time in new cities.",
+"tags": ["Flutter", "Figma", "Tourism"]
+            },
+            "es": {
+              
+"text" : "Una app construida con <b>Flutter</b> que guía a turistas. Buscando ayudar a planear, explorar y optimizar el tiempo en nuevas ciudades.",
+              "tags": ["Flutter", "Figma", "Turismo"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "categoryId": "",
+          "img": "images/pictures/re.jpg",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [
+              {
+                "href": "https://github.com/Czamudioo121/NetScope-GUI-for-GNS3-Network-Monitoring-and-Configuration",
+                "tooltipString": "see_on_github",
+                "faIcon": "fa-brands fa-github"
+              }
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "NetScope",
+              "text": "A Python GUI app for visualizing and configuring <b>GNS3 network topologies</b> via SSH. Includes buttons for quick access to settings like ACLs, NAT, VLANs, and more.",
+              "tags": ["Python", "GNS3", "networking"]
+            },
+            "es": {
+              "title": "NetScope",
+              "text": "Una app GUI en <b>Python</b> para visualizar y configurar <b>topologías de red en GNS3</b> mediante SSH. Incluye botones de acceso rápido a configuraciones como ACLs, NAT, VLANs, entre otros.",
+              "tags": ["Python", "GNS3", "Redes"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

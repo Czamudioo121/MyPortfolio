@@ -1,0 +1,194 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Welcome!",
+        "title_short_nav": "About me",
+        "title_long_prefix": "Hello...",
+        "title_long": "I'm {{Cesar Zamudio!}}"
+      },
+      "es": {
+        "title_short": "¡Saludos!",
+        "title_short_nav": "Sobre mí",
+        "title_long_prefix": "Hola...",
+        "title_long": "Soy {{Cesar Zamudio!}}"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleInlineList",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "display_as_list_if_width_is_lower_than": 380
+      },
+      "items": [
+        {
+          "id": 1,
+          "label": "CDMX – México",
+          "link": {"href": "", "tooltipString": ""},
+          "faIcon": "pi pi-map-marker"
+        },
+        {
+          "id": 2,
+          "label": "czamudio9543@gmail.com",
+          "link": {"href": "czamudio9543@gmail.com", "tooltipString": "email_me"},
+          "faIcon": "fa-regular fa-envelope"
+        },
+        {
+          "id": 3,
+          "label": "@cesarzamudio",
+          "link": {"href": "https://github.com/Czamudioo121", "tooltipString": "see_on_github"},
+          "faIcon": "fa-brands fa-github"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "component": "ArticleText",
+      "locales": {
+        "en": {"title": "{{A little bit}} about me..."},
+        "es": {"title": "{{Un poco}} sobre mí..."}
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/pictures/about-texts-image-1.png",
+          "faIcon": "",
+          "faIconColors": {"bg": "", "fill": ""},
+          "locales": {
+            "es": {
+              "text": "<p>{{Estudiante}} apasionado por el desarrollo front-end, redes de computadoras, dise\u00f1o de interfaces de usuario (UI) y experiencia de usuario (UX). Tambi\u00e9n tengo inter\u00e9s en el soporte t\u00e9cnico, aportando habilidades pr\u00e1cticas para implementar soluciones efectivas y asegurar el correcto funcionamiento de sistemas y aplicaciones.</p><p>A lo largo de mi formaci\u00f3n, he colaborado con compa\u00f1eros en distintos proyectos y \u00e1reas, lo que me ha permitido desarrollar una perspectiva integral y aprender de diversas disciplinas.</p>"
+            },
+            "en": {
+              "text": "<p>{{Student}} passionate about front-end development, computer networks, user interface (UI) design, and user experience (UX). I also have an interest in technical support, bringing hands-on skills to implement effective solutions and ensure systems and applications run smoothly.</p><p>Throughout my studies, I have collaborated with classmates on various projects and areas, which has allowed me to gain a well-rounded perspective and learn from different disciplines.</p>"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "component": "ArticleInfoList",
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "locales": {
+        "en": {"title": "Personal {{interests}}"},
+        "es": {"title": "Intereses {{personales}}"}
+      },
+      "items": [
+        {
+          "id": 1,
+          "faIcon": "fa-solid fa-video",
+          "faIconColors": {"bg": "", "fill": ""},
+          "label": null,
+          "link": {"href": null, "tooltipString": null},
+          "locales": {
+            "en": {
+              "title":  "Creating Videos with {{AI}}",
+              "text": "Learning to use AI tools to create my videos."
+            },
+            "es": {
+              "title": "Creación de videos con {{IA}}",
+              "text": "Aprendiendo a usar herramientas de IA para crear videos."
+            }
+          }
+        },
+        {
+          "id": 2,
+          "faIcon": "fa-solid fa-laptop-code",
+          "faIconColors": {"bg": "", "fill": ""},
+          "label": null,
+          "link": {"href": null, "tooltipString": null},
+          "locales": {
+            "en": {
+              "title": "Independent {{developer}}",
+              "text": "I enjoy building and developing my own projects."
+            },
+            "es": {
+              "title": "{{Desarrollador}} independiente",
+              "text": "Disfruto crear y desarrollar mis propios proyectos."
+            }
+          }
+        },
+        {
+          "id": 3,
+          "faIcon": "fa-solid fa-computer",
+          "faIconColors": {"bg": "", "fill": ""},
+          "label": null,
+          "link": {"href": null, "tooltipString": null},
+          "locales": {
+            "en": {
+  "title": "{{PC Building}} & Modification",
+  "text": "Passion for PC hardware."
+},
+            "es": {
+              "title": "{{Armado y Modificación}} de PC",
+              "text": "Pasión por el hardware de PC."
+            }
+          }
+        },
+        {
+          "id": 4,
+          "faIcon": "fa-solid fa-object-group",
+          "faIconColors": {"bg": "", "fill": ""},
+          "label": null,
+          "link": {"href": null, "tooltipString": null},
+          "locales": {
+            "en": {
+              "title": "{{UI/UX}} design",
+              "text": "Studying user experience principles UI/UX."
+            },
+            "es": {
+              "title": "Dise\u00f1o {{UI/UX}}",
+              "text": "Estudiando los principios de UI/UX."
+            }
+          }
+        },
+        {
+          "id": 5,
+          "faIcon": "fa-solid fa-camera-retro",
+          "faIconColors": {"bg": "", "fill": ""},
+          "label": null,
+          "link": {"href": null, "tooltipString": null},
+          "locales": {
+            "en": {
+              "title": "{{Photography}} & Photoshop",
+              "text": "Enhancing photos through creative editing techniques."
+            },
+            "es": {
+              "title": "{{Fotograf\u00eda}} y Photoshop",
+              "text": "Mejorando fotos a trav\u00e9s de t\u00e9cnicas creativas de edici\u00f3n."
+            }
+          }
+        },
+        {
+          "id": 6,
+          "faIcon": "fa-solid fa-certificate",
+          "faIconColors": {"bg": "", "fill": ""},
+          "label": null,
+          "link": {"href": null, "tooltipString": null},
+          "locales": {
+            "en": {
+              "title": "Certified {{course hunter}}",
+              "text": "I love searching for and completing certified courses."
+            },
+            "es": {
+              "title": "Cazador de cursos {{certificados}}",
+              "text": "Me encanta buscar y completar cursos con certificaci\u00f3n."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
